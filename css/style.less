@@ -38,9 +38,6 @@
     word-wrap: break-word;
 }
 
-/*-----------------min-width:1200px-------------------*/
-// @media only screen and (min-width: 1200px) {	
-/*------------------------------------*/
 body {
 	width: 100%;
 	// min-width: 1200px;
@@ -404,7 +401,7 @@ body {
 			.form-btn{
 				float: left;
 				padding: 0 3.548% 0 0;
-				.mybutton();
+				.mybutton(#e2574c, #fff, 1.125em, 5px, 16px 3.226%);
 			}
 		}
 		
@@ -447,10 +444,78 @@ body {
 	width: 100%;
 	height: 315px;
 }
-// }
-/*---------min-width: 1200px-----------*/
-@media only screen and (min-width: 940px) {
+
+@media only screen and (max-width: 940px) {
 	.wrapp{
 		width: 100%;
 	}
+}
+@media only screen and (max-width: 480px),
+only screen and (max-device-width: 480px) {
+// @media only screen and (max-width: 480px) {
+.wrapp{
+	width: 85.42%;
+	// min-width: 480px;
+}
+.top{
+	.wrapp;
+	.logo-social{
+		.clearfix;
+		width: 100%;
+		height: 69px;
+		padding: 48px 0;
+		border-bottom: 2px solid #ccd0d2;
+		.logo{
+			// float: left;
+			float: none;
+			.logo-item{
+				float: left;
+				// .font-face('HelveticaNeue', 'HelveticaNeueCyr-Bold');
+				// font-family: 'MyWebFont';
+				text-align: center;
+				text-transform: uppercase;
+				padding: 22px 0;
+				height: 25px;
+			}
+			.logo-item-1{
+				.bg-color(#e2574c);
+				color: #fff;
+				font-size: 1.5em;
+				width: 69px;
+				// height: 69px;
+				// width: 18.158%;
+				margin-right: 4.736%;
+				.border-radius(34.5px);
+			}
+			.logo-item-2{
+				color: #2b414d;
+				font-size: 1.75em;
+			}
+			.logo-item-3{
+				padding: 0;
+				margin: 28px 0;
+				height: 20.5px;
+				color: #ccd0d2;
+				font-size: 0.6875em;
+				border-left: solid #ccd0d2;
+				padding-left: 3.947%;
+				margin-left: 3.947%;
+				width: 25.5%;
+			}
+		}
+		.social{
+			display: none;
+		}
+	}
+	.top-text{
+		width: 100%;
+		// height: 69px;
+		padding: 58px 0;
+		text-align: center;
+		color: #2b414d;
+		font-size: 1.875em;
+		border-bottom: 2px solid #ccd0d2;
+	}
+}
+/*------------------------------------------------*/
 }
