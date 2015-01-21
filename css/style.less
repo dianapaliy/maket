@@ -59,8 +59,10 @@ body {
 		height: 69px;
 		padding: 48px 0;
 		border-bottom: 2px solid #ccd0d2;
+		.clearfix;
 		.logo{
 			float: left;
+			width: 36.17%;
 			.logo-item{
 				float: left;
 				// .font-face('HelveticaNeue', 'HelveticaNeueCyr-Bold');
@@ -70,17 +72,24 @@ body {
 				text-transform: uppercase;
 				// height: 100%;
 				padding: 22px 0;
-				height: 25px;
+				// height: 25px;
 			}
 			.logo-item-1{
 				.bg-color(#e2574c);
 				color: #fff;
 				font-size: 1.5em;
 				width: 69px;
-				// height: 69px;
-				// width: 18.158%;
+				height: 69px;
+				padding: 0;
 				margin-right: 4.736%;
 				.border-radius(34.5px);
+				position: relative;
+				display: inline-block;
+				span{
+					position: absolute;
+					top: 22px;
+					left: 18px;
+				}
 			}
 			.logo-item-2{
 				color: #2b414d;
@@ -470,34 +479,39 @@ only screen and (max-device-width: 480px) and (min-resolution: 2dppx) {
 .top{
 	.wrapp;
 	.logo-social{
-		height: 69px;
-		padding: 48px 35px;
-		border-bottom: 2px solid #ccd0d2;
+		// height: 69px;
+		padding: 48px 0;
+		// border-bottom: 2px solid #ccd0d2;
+
+		width: 100%;
 		.logo{
 			float: none;
-			text-align: center;
-			.clearfix;
+			width: 100%;
+			margin: 0 auto;
+			// .clearfix;
 			.logo-item{
-				// float: left;
+				float: none;
 				display: inline-block;
-				// .font-face('HelveticaNeue', 'HelveticaNeueCyr-Bold');
-				// font-family: 'MyWebFont';
 				text-align: center;
-				// margin: 0 auto;
 				text-transform: uppercase;
-				// height: 100%;
 				padding: 22px 0;
-				height: 25px;
 			}
 			.logo-item-1{
 				.bg-color(#e2574c);
 				color: #fff;
 				font-size: 1.5em;
 				width: 69px;
-				// height: 69px;
-				// width: 18.158%;
+				height: 69px;
+				padding: 0;
 				margin-right: 4.736%;
 				.border-radius(34.5px);
+				position: relative;
+				// display: inline-block;
+				span{
+					position: absolute;
+					top: 22px;
+					left: 18px;
+				}
 			}
 			.logo-item-2{
 				color: #2b414d;
@@ -510,8 +524,8 @@ only screen and (max-device-width: 480px) and (min-resolution: 2dppx) {
 				color: #ccd0d2;
 				font-size: 0.6875em;
 				border-left: solid #ccd0d2;
-				padding-left: 3.947%;
-				margin-left: 3.947%;
+				padding-left: 3.66%;
+				margin-left: 3.66%;
 				width: 25.5%;
 			}
 		}
@@ -520,9 +534,7 @@ only screen and (max-device-width: 480px) and (min-resolution: 2dppx) {
 		}
 	}
 	.top-text{
-		.top-text-item{
-			// padding: 0 12.2%;
-		}
+		border-bottom: 2px solid #ccd0d2;
 		
 	}
 }
