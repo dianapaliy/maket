@@ -403,17 +403,22 @@ body {
 			.clearfix;
 			.feedback-input{
 				margin: 0 3.225%;
+				padding-left: 3.225%;
 				float: left;
-				width: 64.51%;
+				width: 61.28%;
 				height: 50px;
 				background-color: #f8f8f8;
 				border: 2px solid #ececec;
+				font-size: 1.125em;
 				.border-radius(5px); 
 			}
 			.form-btn{
 				float: left;
 				padding: 0 3.548% 0 0;
 				.mybutton(#e2574c, #fff, 1.125em, 5px, 16px 3.226%);
+			}
+			.form-btn-mob{
+				display: none;
 			}
 		}
 		
@@ -619,6 +624,20 @@ only screen and (max-device-width: 480px) and (min-resolution: 2dppx) {
 	.subscribe-title{
 		// width: 58.54%;
 		font-size: 1.875em;
+	}
+	.subscribe-form-out{
+		.subscribe-form{
+			.form-btn{
+				display: none;
+				
+			}
+			.form-btn-mob{
+				float: left;
+				padding: 0 3.548% 0 0;
+				.mybutton(#e2574c, #fff, 1.125em, 5px, 16px 3.226%);
+			}
+		}
+		
 	}
 }
 /*------------------------------------------------*/
