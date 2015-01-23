@@ -311,6 +311,8 @@ body {
   padding: 16px 4%;
   background-color: #e2574c;
   border-radius: 5px;
+  outline: none;
+  border: 2px solid #e35347;
 }
 .text-button .text-button-item-left .button-a span {
   margin: 0;
@@ -453,6 +455,8 @@ body {
   padding: 16px 3.226%;
   background-color: #e2574c;
   border-radius: 5px;
+  outline: none;
+  border: 2px solid #e35347;
 }
 .subscribe .subscribe-form-out .subscribe-form .form-btn-mob {
   padding: 0 3.548% 0 0;
@@ -466,6 +470,8 @@ body {
   padding: 16px 3.226%;
   background-color: #e2574c;
   border-radius: 5px;
+  outline: none;
+  border: 2px solid #e35347;
   display: none;
 }
 .subscribe .subscribe-text {
