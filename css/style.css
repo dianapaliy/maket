@@ -446,7 +446,6 @@ body {
   border-radius: 5px;
 }
 .subscribe .subscribe-form-out .subscribe-form .form-btn-mob {
-  display: none;
   padding: 0 3.548% 0 0;
   display: inline-block;
   *display: inline;
@@ -458,6 +457,7 @@ body {
   padding: 16px 3.226%;
   background-color: #e2574c;
   border-radius: 5px;
+  display: none;
 }
 .subscribe .subscribe-text {
   font-size: 1.0625em;
