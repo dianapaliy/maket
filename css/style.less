@@ -424,6 +424,8 @@ body {
 			}
 			.form-btn-mob{
 				display: none;
+				padding: 0 3.548% 0 0;
+				.mybutton(#e2574c, #fff, 1.125em, 5px, 16px 3.226%);
 			}
 		}
 		
@@ -497,7 +499,8 @@ body {
 	.wrapp;
 	.text-button-item-left{
 		.button-a{
-			width: 70%;
+			// width: 70%;
+			width: 84%;
 		}
 	}
 }
@@ -868,7 +871,8 @@ only screen and (max-width: 480px) and (min-resolution: 192dpi),
 only screen and (max-width: 480px) and (min-resolution: 2dppx)
 {
 	.wrapp{
-	width: 85.42%;
+	// width: 85.42%;
+	width: 90%;
 	}
 	.top{
 		border-bottom: 2px solid #ccd0d2;
@@ -880,11 +884,14 @@ only screen and (max-width: 480px) and (min-resolution: 2dppx)
 				width: 100%;
 				float: none;
 				.logo-item-1{
-					margin-right: 1.736%;
+					// margin-right: 1.736%;
+					margin: 0;
 				}
 				.logo-item-3{
-					padding-left: 1.947%;
-					margin-left: 1.947%;
+					// padding-left: 1.947%;
+					// margin-left: 1.947%;
+					padding-left: 1%;
+					margin-left: 2%;
 				}
 			}
 			.social{
@@ -998,6 +1005,11 @@ only screen and (max-width: 480px) and (min-resolution: 2dppx)
 			}
 			.form-btn{
 				float: right;
+				display: none;
+			}
+			.form-btn-mob{
+				float: right;
+				display: block;
 			}
 		}
 	}
@@ -1014,144 +1026,96 @@ only screen and (max-width: 480px) and (min-resolution: 2dppx)
 		}
 	}
 }
+.pic-bottom{
+	.bg-img('template_desktop.png');
+	background-size: cover;
+	width: 100%;
+	// height: 315px;
+	height: 120px;
+}
 /*------------------------------------------------*/
 }
 
-// @media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2),
-// only screen and (max-device-width: 480px) and (min--moz-device-pixel-ratio: 2),
-// only screen and (max-device-width: 480px) and (-o-min-device-pixel-ratio: 2/1),
-// only screen and (max-device-width: 480px) and (min-device-pixel-ratio: 2),
-// only screen and (max-device-width: 480px) and (min-device-pixel-ratio: 2),
-// only screen and (max-device-width: 480px) and (min-resolution: 192dpi),
-// only screen and (max-device-width: 480px) and (min-resolution: 2dppx) {
-// .body{
-// 	font-size: 100%;
-// }
-// .wrapp{
-// 	width: 85.42%;
-// }
-// .top{
-// 	.wrapp;
-// 	.logo-social{
-// 		// height: 69px;
-// 		padding: 48px 0;
-// 		// border-bottom: 2px solid #ccd0d2;
 
-// 		width: 100%;
-// 		.logo{
-// 			float: none;
-// 			width: 100%;
-// 			margin: 0 auto;
-// 			.logo-item{
-// 				float: none;
-// 				display: inline-block;
-// 			}
-// 		}
-// 		.social{
-// 			display: none;
-// 		}
-// 	}
-// 	.top-text{
-// 		border-bottom: 2px solid #ccd0d2;
-		
-// 	}
-// }
-// .slider-picture{
-// 	display: none;
-// }
-// .features{
-// 	.wrapp;
-// 	// width: 100%;
-// 	padding: 80px 0 75px 0;
-// 	.feature-counter{
-// 		width: 100%;
-// 		float: none;
-// 		padding: 0 0 75px 0;
-// 		margin: 0 auto;
-// 		.feature-counter-img{
-// 			width: 15.85%;
-// 		}
-// 		// .t-b-t{
-// 		// 	margin: 0 36%;
-// 		// }
-// 	}	
-// }
-// .text{
-// 	.wrapp;
-// 	// width: 100%;
-// 	padding: 80px 0;
-// 	text-align: center;
-// 	.text-item-left{
-// 		width: 78%;
-// 		float: none;
-// 	}
-// 	.text-item-right{
-// 		float: none;
-// 		width: 93%;
-// 		font-size: 0.875em;
-// 		margin: 0 auto;
-// 		text-align: center;
-// 	}
-// }
-// .text-button{
-// 	.wrapp;
-// 	text-align: center;
-// 	// .clearfix;
-// 	.break-word;
-// 	// width: 100%;
-// 	// padding: 82px 0 90px 0;
-// 	.text-button-item-right{
-// 		float: none;
-// 		width: 78%;
-// 		// height: auto;
-// 	}
-// 	.text-button-item-left{
-// 		float: none;
-// 		// text-align: left;
-// 		width: 93%;
-// 		padding: 20px 0;
-// 		text-align: center;
-// 		font-size: 0.875em;
-// 		margin: 0 auto;
-// 		.button-a{
-// 			// .clearfix;
-// 			width: 43.9%;
-// 			margin: 0 auto;
-// 			.btn{
-// 				float: none;
-// 				margin: 0 auto;
-// 				text-align: center;
-// 				.mybutton( #e2574c, #fff, 1.125em, 5px, 16px 11%);
-// 				font-size: 1.125em;
-// 			}
-// 			.span-a{
-// 				width: 38%;
-// 				margin: 0 auto;
-// 				.clearfix;
-// 			}
-// 		}
-// 	}
-// }
-// .subscribe{
-// 	.wrapp;
-// 	.subscribe-title{
-// 		// width: 58.54%;
-// 		font-size: 1.875em;
-// 	}
-// 	.subscribe-form-out{
-// 		.subscribe-form{
-// 			.form-btn{
-// 				display: none;
-				
-// 			}
-// 			.form-btn-mob{
-// 				float: left;
-// 				padding: 0 3.548% 0 0;
-// 				.mybutton(#e2574c, #fff, 1.125em, 5px, 16px 3.226%);
-// 			}
-// 		}
-		
-// 	}
-// }
-// /*------------------------------------------------*/
-// }
+@media only screen and (max-width: 320px),
+only screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio: 2),
+only screen and (max-width: 320px) and (min--moz-device-pixel-ratio: 2),
+only screen and (max-width: 320px) and (-o-min-device-pixel-ratio: 2/1),
+only screen and (max-width: 320px) and (min-device-pixel-ratio: 2),
+only screen and (max-width: 320px) and (min-device-pixel-ratio: 2),
+only screen and (max-width: 320px) and (min-resolution: 192dpi),
+only screen and (max-width: 320px) and (min-resolution: 2dppx)
+{
+	.wrapp{
+	width: 85.42%;
+	}
+	.top{
+		border-bottom: 2px solid #ccd0d2;
+		.wrapp;
+		.logo-social{
+			.logo{
+				margin: 0 auto;
+				.clearfix;
+				width: 100%;
+				float: none;
+				.logo-item{
+					padding: 17px 0;
+				}
+				.logo-item-1{
+					margin-right: 1.736%;
+					padding: 0;
+					width: 60px;
+					height: 60px;
+					border-radius: 30px;
+					font-size: 1.4em;
+					span{
+						top: 18px;
+						left: 13px;
+					}
+				}
+				.logo-item-2{
+					font-size: 1.5em;
+				}
+				.logo-item-3{
+					width: 80px;
+					margin: 21px 0 0 2%;
+					padding: 0 0 0 2%;
+					font-size: 0.6em;
+				}
+			}
+			.social{
+				display: none;
+			}
+		}
+		.top-text{
+			padding: 38px 0;
+			margin: 0 auto;
+			width: 95%;
+			font-size: 1.5em;
+		}
+}
+/*------------------------------------------------*/
+.text-button{
+	.text-button-item-left{
+		.button-a{
+			width: 71%;
+		}
+	}
+}
+/*------------------------------------------------*/
+.subscribe{
+	.subscribe-form-out{
+		.subscribe-form{	
+			.feedback-input{
+				font-size: 1.02em;
+			}
+		}
+	}
+	.subscribe-social{
+		.subscribe-social-inner{
+			width: 46.893%;
+		}
+	}
+}
+/*------------------------------------------------*/
+}
