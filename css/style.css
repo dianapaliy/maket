@@ -991,6 +991,7 @@ only screen and (max-width: 480px) and (min-resolution: 2dppx) {
   }
   .text-button .text-button-item-left .button-a .span-a span {
     float: none;
+    padding: 16px 4% 16px 3.241%;
   }
   .text-button .text-button-item-left .button-a .span-a a {
     float: none;
