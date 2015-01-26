@@ -353,9 +353,13 @@ body {
   text-align: center;
   margin: 0 auto;
 }
+.slider-social .slider-content .slide .slider-social-div-img img {
+  margin: 0 auto;
+}
 .slider-social .slider-content .slide .slider-social-text {
+  width: 65.957%;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   font-size: 1.5em;
   color: #2b414d;
   text-align: center;
@@ -637,6 +641,13 @@ body {
     width: 100%;
   }
   /*------------------------------------------------*/
+  .slider-social .slider-content {
+    width: 95%;
+  }
+  .slider-social .slider-content .slide .slider-social-text {
+    width: 100%;
+  }
+  /*------------------------------------------------*/
   .subscribe {
     width: 95%;
   }
@@ -734,6 +745,12 @@ body {
     margin: 0 auto;
   }
   /*------------------------------------------------*/
+  .slider-social .slider-content {
+    width: 98%;
+  }
+  .slider-social .slider-content .slide .slider-social-text {
+    width: 100%;
+  }
   .subscribe {
     width: 98%;
   }
@@ -861,6 +878,12 @@ body {
     float: none;
   }
   /*------------------------------------------------*/
+  .slider-social .slider-content {
+    width: 98%;
+  }
+  .slider-social .slider-content .slide .slider-social-text {
+    width: 100%;
+  }
   .subscribe {
     width: 98%;
   }
@@ -1012,6 +1035,25 @@ only screen and (max-width: 480px) and (min-resolution: 2dppx) {
     float: none;
   }
   /*------------------------------------------------*/
+  .slider-social .slider-content {
+    width: 90%;
+    height: 380px;
+  }
+  .slider-social .slider-content .slide {
+    width: 100%;
+  }
+  .slider-social .slider-content .slide .slider-social-div-img {
+    padding: 80px 0 50px 0;
+  }
+  .slider-social .slider-content .slide .slider-social-text {
+    width: 82.92%;
+    margin: 0 auto;
+    font-size: 1.0625em;
+  }
+  .slider-social .slider-content .slide .slider-social-text-bottom {
+    padding: 45px 0;
+  }
+  /*------------------------------------------------*/
   .subscribe {
     width: 90%;
   }
@@ -1131,6 +1173,25 @@ only screen and (max-width: 320px) and (min-resolution: 2dppx) {
   }
   .subscribe .subscribe-social .subscribe-social-inner {
     width: 46.893%;
+  }
+  /*------------------------------------------------*/
+  .slider-social .slider-content {
+    width: 85.42%;
+    height: 380px;
+  }
+  .slider-social .slider-content .slide {
+    width: 100%;
+  }
+  .slider-social .slider-content .slide .slider-social-div-img {
+    padding: 80px 0 50px 0;
+  }
+  .slider-social .slider-content .slide .slider-social-text {
+    width: 82.92%;
+    margin: 0 auto;
+    font-size: 1.0625em;
+  }
+  .slider-social .slider-content .slide .slider-social-text-bottom {
+    padding: 25px 0;
   }
   /*------------------------------------------------*/
 }
