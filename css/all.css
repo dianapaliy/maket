@@ -290,7 +290,7 @@ body {
 }
 .text-button .text-button-item-left .button-a {
   *zoom: 1;
-  width: 67.857%;
+  width: 84%;
 }
 .text-button .text-button-item-left .button-a:before, .text-button .text-button-item-left .button-a:after {
   content: " ";
@@ -524,42 +524,14 @@ body {
   width: 100%;
   height: 315px;
 }
-@media only screen and (min-width: 940px) and (max-width: 1200px) {
-  .wrapp {
-    width: 78.33%;
-  }
-  .top {
-    width: 78.33%;
-  }
+@media only screen and (max-width: 1200px) {
   .top .logo-social .social {
     width: 15.89%;
   }
   /*------------------------------------------------*/
-  .slider-picture {
-    width: 78.33%;
-  }
-  /*------------------------------------------------*/
-  .features {
-    width: 78.33%;
-  }
-  /*------------------------------------------------*/
-  .text {
-    width: 78.33%;
-  }
-  /*------------------------------------------------*/
-  .text-button {
-    width: 78.33%;
-  }
-  .text-button .text-button-item-left .button-a {
-    width: 84%;
-  }
-  /*------------------------------------------------*/
-  .slider-social .slider-content {
-    width: 78.33%;
-  }
-  /*------------------------------------------------*/
   .subscribe {
-    width: 78.33%;
+    width: 78.333%;
+    margin: 0 auto;
   }
   .subscribe .subscribe-form-out .subscribe-form {
     width: 82%;
@@ -578,7 +550,7 @@ body {
   }
   /*------------------------------------------------*/
 }
-@media only screen and (min-width: 768px) and (max-width: 939px) {
+@media only screen and (max-width: 939px) {
   .wrapp {
     width: 95%;
   }
@@ -675,7 +647,7 @@ body {
   }
   /*------------------------------------------------*/
 }
-@media only screen and (min-width: 600px) and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .wrapp {
     width: 98%;
   }
@@ -752,7 +724,7 @@ body {
     width: 98%;
   }
   .slider-social .slider-content .slide .slider-social-text {
-    width: 100%;
+    width: 90%;
   }
   .subscribe {
     width: 98%;
@@ -778,7 +750,7 @@ body {
   }
   /*------------------------------------------------*/
 }
-@media only screen and (min-width: 481px) and (max-width: 599px) {
+@media only screen and (max-width: 599px) {
   .wrapp {
     width: 98%;
   }
@@ -885,7 +857,7 @@ body {
     width: 98%;
   }
   .slider-social .slider-content .slide .slider-social-text {
-    width: 100%;
+    width: 90%;
   }
   .subscribe {
     width: 98%;
