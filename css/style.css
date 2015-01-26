@@ -517,46 +517,49 @@ body {
 }
 @media only screen and (min-width: 940px) and (max-width: 1200px) {
   .wrapp {
-    width: 90%;
+    width: 78.33%;
   }
   .top {
-    width: 90%;
+    width: 78.33%;
   }
   .top .logo-social .social {
     width: 15.89%;
   }
   /*------------------------------------------------*/
   .slider-picture {
-    width: 90%;
+    width: 78.33%;
   }
   /*------------------------------------------------*/
   .features {
-    width: 90%;
+    width: 78.33%;
   }
   /*------------------------------------------------*/
   .text {
-    width: 90%;
+    width: 78.33%;
   }
   /*------------------------------------------------*/
   .text-button {
-    width: 90%;
+    width: 78.33%;
   }
   .text-button .text-button-item-left .button-a {
     width: 84%;
   }
   /*------------------------------------------------*/
   .slider-social .slider-content {
-    width: 90%;
+    width: 78.33%;
   }
   /*------------------------------------------------*/
   .subscribe {
-    width: 90%;
+    width: 78.33%;
+  }
+  .subscribe .subscribe-form-out .subscribe-form {
+    width: 82%;
   }
   .subscribe .subscribe-form-out .subscribe-form .feedback-input {
     width: 62.28%;
   }
   .subscribe .subscribe-form-out .subscribe-form .form-btn {
-    float: right;
+    float: left;
   }
   .subscribe .subscribe-form-out .subscribe-form .form-btn-mob {
     display: none;
