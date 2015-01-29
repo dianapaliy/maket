@@ -25,6 +25,13 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'helveticaneuemedium1361522099';
+  src: url("../fonts/helveticaneuemedium1361522099/helveticaneuemedium1361522099.eot");
+  src: url("../fonts/helveticaneuemedium1361522099/helveticaneuemedium1361522099.eot?#iefix") format("embedded-opentype"), url("../fonts/helveticaneuemedium1361522099/helveticaneuemedium1361522099.woff") format("woff"), url("../fonts/helveticaneuemedium1361522099/helveticaneuemedium1361522099.ttf") format("truetype"), url('../fonts/helveticaneuemedium1361522099/helveticaneuemedium1361522099.svg#svgFontName') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 .wrapp {
   width: 78.333%;
   margin: 0 auto;
@@ -50,13 +57,13 @@ body {
   float: left;
   width: 50%;
 }
-.header .header__i .header__logo .header__logo_item {
+.header .header__i .header__logo .header__logo-item {
   float: left;
   text-align: center;
   text-transform: uppercase;
   padding: 22px 0;
 }
-.header .header__i .header__logo .header__logo_item_1 {
+.header .header__i .header__logo .header__logo-item_1 {
   background-color: #e2574c;
   color: #fff;
   font-size: 1.5em;
@@ -70,16 +77,16 @@ body {
   position: relative;
   display: inline-block;
 }
-.header .header__i .header__logo .header__logo_item_1 span {
+.header .header__i .header__logo .header__logo-item_1 span {
   position: absolute;
   top: 22px;
   left: 18px;
 }
-.header .header__i .header__logo .header__logo_item_2 {
+.header .header__i .header__logo .header__logo-item_2 {
   color: #2b414d;
   font-size: 1.75em;
 }
-.header .header__i .header__logo .header__logo_item_3 {
+.header .header__i .header__logo .header__logo-item_3 {
   padding: 0;
   margin: 28px 0;
   height: 20.5px;
@@ -90,14 +97,14 @@ body {
   margin-left: 3.947%;
   width: 110px;
 }
-.header .header__i .header__social_list {
+.header .header__i .header__social-list {
   float: right;
   list-style: none;
   width: 14.89%;
   padding: 0;
   margin: 0;
 }
-.header .header__i .header__social_list .header__social_item {
+.header .header__i .header__social-list .header__social-item {
   margin: 17px 0 17px 10%;
   width: 22.84%;
   height: auto;
@@ -525,7 +532,7 @@ body {
   height: 315px;
 }
 @media only screen and (max-width: 1200px) {
-  .header .header__i .header__social_list {
+  .header .header__i .header__social-list {
     width: 15.89%;
   }
   /*------------------------------------------------*/
@@ -560,10 +567,10 @@ body {
   .header .header__i .header__logo {
     width: 51%;
   }
-  .header .header__i .header__social_list {
+  .header .header__i .header__social-list {
     width: 16.89%;
   }
-  .header .header__i .header__social_list .header__social_item {
+  .header .header__i .header__social-list .header__social-item {
     margin: 17px 0 17px 8%;
   }
   .header .header__text {
@@ -657,10 +664,10 @@ body {
   .header .header__i .header__logo {
     width: 65%;
   }
-  .header .header__i .header__social_list {
+  .header .header__i .header__social-list {
     width: 23.89%;
   }
-  .header .header__i .header__social_list .header__social_item {
+  .header .header__i .header__social-list .header__social-item {
     margin: 17px 0 17px 8%;
   }
   .header .header__text {
@@ -771,14 +778,14 @@ body {
   .header .header__i .header__logo:after {
     clear: both;
   }
-  .header .header__i .header__logo .header__logo_item_1 {
+  .header .header__i .header__logo .header__logo-item_1 {
     margin-right: 3.736%;
   }
-  .header .header__i .header__logo .header__logo_item_3 {
+  .header .header__i .header__logo .header__logo-item_3 {
     padding-left: 3.947%;
     margin-left: 3.947%;
   }
-  .header .header__i .header__social_list {
+  .header .header__i .header__social-list {
     display: none;
   }
   .header .header__text {
@@ -907,15 +914,15 @@ body {
   .header .header__i .header__logo:after {
     clear: both;
   }
-  .header .header__i .header__logo .header__logo_item_1 {
+  .header .header__i .header__logo .header__logo-item_1 {
     margin: 0;
   }
-  .header .header__i .header__logo .header__logo_item_3 {
+  .header .header__i .header__logo .header__logo-item_3 {
     padding-left: 1%;
     margin-left: 2%;
     width: 95px;
   }
-  .header .header__i .header__social_list {
+  .header .header__i .header__social-list {
     display: none;
   }
   .header .header__text {
@@ -1093,10 +1100,10 @@ body {
   .header .header__i .header__logo:after {
     clear: both;
   }
-  .header .header__i .header__logo .header__logo_item {
+  .header .header__i .header__logo .header__logo-item {
     padding: 17px 0;
   }
-  .header .header__i .header__logo .header__logo_item_1 {
+  .header .header__i .header__logo .header__logo-item_1 {
     margin-right: 1.736%;
     padding: 0;
     width: 60px;
@@ -1104,21 +1111,21 @@ body {
     border-radius: 30px;
     font-size: 1.4em;
   }
-  .header .header__i .header__logo .header__logo_item_1 span {
+  .header .header__i .header__logo .header__logo-item_1 span {
     top: 18px;
     left: 13px;
   }
-  .header .header__i .header__logo .header__logo_item_2 {
+  .header .header__i .header__logo .header__logo-item_2 {
     font-size: 1.5em;
   }
-  .header .header__i .header__logo .header__logo_item_3 {
+  .header .header__i .header__logo .header__logo-item_3 {
     width: 67px;
     margin: 21px 0 0 2%;
     padding: 0 0 0 2%;
     font-size: 0.5em;
     display: block;
   }
-  .header .header__i .header__social_list {
+  .header .header__i .header__social-list {
     display: none;
   }
   .header .header__text {
@@ -1149,10 +1156,10 @@ body {
   .header .header__i .header__logo:after {
     clear: both;
   }
-  .header .header__i .header__logo .header__logo_item {
+  .header .header__i .header__logo .header__logo-item {
     padding: 17px 0;
   }
-  .header .header__i .header__logo .header__logo_item_1 {
+  .header .header__i .header__logo .header__logo-item_1 {
     margin-right: 1.736%;
     padding: 0;
     width: 60px;
@@ -1160,21 +1167,21 @@ body {
     border-radius: 30px;
     font-size: 1.4em;
   }
-  .header .header__i .header__logo .header__logo_item_1 span {
+  .header .header__i .header__logo .header__logo-item_1 span {
     top: 18px;
     left: 13px;
   }
-  .header .header__i .header__logo .header__logo_item_2 {
+  .header .header__i .header__logo .header__logo-item_2 {
     font-size: 1.5em;
   }
-  .header .header__i .header__logo .header__logo_item_3 {
+  .header .header__i .header__logo .header__logo-item_3 {
     width: 67px;
     margin: 21px 0 0 2%;
     padding: 0 0 0 2%;
     font-size: 0.5em;
     display: block;
   }
-  .header .header__i .header__social_list {
+  .header .header__i .header__social-list {
     display: none;
   }
   .header .header__text {
