@@ -17,13 +17,7 @@ body {
   margin: 0 auto;
   padding: 0;
   background-color: #ffffff;
-}
-@font-face {
-  font-family: 'helveticaneuemedium1361522099';
-  src: url("../fonts/helveticaneuemedium1361522099/helveticaneuemedium1361522099.eot");
-  src: url("../fonts/helveticaneuemedium1361522099/helveticaneuemedium1361522099.eot?#iefix") format("embedded-opentype"), url("../fonts/helveticaneuemedium1361522099/helveticaneuemedium1361522099.woff") format("woff"), url("../fonts/helveticaneuemedium1361522099/helveticaneuemedium1361522099.ttf") format("truetype"), url('../fonts/helveticaneuemedium1361522099/helveticaneuemedium1361522099.svg#svgFontName') format('svg');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'helveticaneuemedium1361522099', sans-serif;
 }
 @font-face {
   font-family: 'helveticaneuemedium1361522099';
@@ -56,12 +50,15 @@ body {
 .header .header__i .header__logo {
   float: left;
   width: 50%;
+  text-align: center;
+  display: block;
 }
 .header .header__i .header__logo .header__logo-item {
   float: left;
   text-align: center;
+  display: inline-block;
+  vertical-align: middle;
   text-transform: uppercase;
-  padding: 22px 0;
 }
 .header .header__i .header__logo .header__logo-item_1 {
   background-color: #e2574c;
@@ -75,7 +72,6 @@ body {
   -moz-border-radius: 34.5px;
   border-radius: 34.5px;
   position: relative;
-  display: inline-block;
 }
 .header .header__i .header__logo .header__logo-item_1 span {
   position: absolute;
@@ -85,10 +81,10 @@ body {
 .header .header__i .header__logo .header__logo-item_2 {
   color: #2b414d;
   font-size: 1.75em;
+  line-height: 69px;
 }
 .header .header__i .header__logo .header__logo-item_3 {
   padding: 0;
-  margin: 28px 0;
   height: 20.5px;
   color: #ccd0d2;
   font-size: 0.6875em;
@@ -96,6 +92,14 @@ body {
   padding-left: 3.947%;
   margin-left: 3.947%;
   width: 110px;
+  vertical-align: middle;
+}
+.header .header__i .header__logo:before {
+  content: "";
+  display: inline-block;
+  min-height: inherit;
+  height: 100%;
+  vertical-align: middle;
 }
 .header .header__i .header__social-list {
   float: right;
