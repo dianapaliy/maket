@@ -541,6 +541,7 @@ body {
   width: 100%;
   height: 315px;
 }
+/*------------------------------------------------*/
 @media only screen and (max-width: 1200px) {
   .header__i .header__social-list {
     width: 15.89%;
@@ -1013,7 +1014,7 @@ body {
     font-size: 0.875em;
   }
   .text-button .text-button-item-left .button-a {
-    width: 65%;
+    width: 71%;
     margin: 0 auto;
   }
   .text-button .text-button-item-left .button-a .btn {
