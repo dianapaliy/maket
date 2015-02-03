@@ -3,14 +3,26 @@
         font-family: @file-base;
         src: url("../fonts/@{file-base}/@{file-base}.eot");
         src: url("../fonts/@{file-base}/@{file-base}.eot?#iefix") format("embedded-opentype"),
+        url('helveticaneuemedium1361522099-webfont.woff2') format('woff2'),
         url("../fonts/@{file-base}/@{file-base}.woff") format("woff"),
         url("../fonts/@{file-base}/@{file-base}.ttf") format("truetype"),
-        url('../fonts/@{file-base}/@{file-base}.svg#svgFontName') format('svg');
+        url('../fonts/@{file-base}/@{file-base}.svg#@{file-base}') format('svg');
         font-weight: @weight;
         font-style: @style;
     }
 }
+// @font-face {
+//     font-family: 'helveticaneuemedium13615220Bk';
+//     src: url('helveticaneuemedium1361522099-webfont.eot');
+//     src: url('helveticaneuemedium1361522099-webfont.eot?#iefix') format('embedded-opentype'),
+//          url('helveticaneuemedium1361522099-webfont.woff2') format('woff2'),
+//          url('helveticaneuemedium1361522099-webfont.woff') format('woff'),
+//          url('helveticaneuemedium1361522099-webfont.ttf') format('truetype'),
+//          url('helveticaneuemedium1361522099-webfont.svg#helveticaneuemedium13615220Bk') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
 
+// }
 // @font-face {
 //     font-family: 'MyWebFont';
 //     src: url('../fonts/helveticaneuemedium1361522099/helveticaneuemedium1361522099.eot'); /* IE9 Compat Modes */
