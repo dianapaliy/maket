@@ -64,57 +64,6 @@ body {
 		padding: 48px 0;
 		border-bottom: 2px solid #ccd0d2;
 		.clearfix;
-		.header__logo{
-			float: left;
-			width: 375px;
-			text-align: center;
-			display: block;
-			&-item{
-				text-align: center;
-				display: inline-block;
-				vertical-align: middle;
-				text-transform: uppercase;
-				&_1{
-					.bg-color(#e2574c);
-					color: #fff;
-					font-size: 1.5em;
-					width: 69px;
-					height: 69px;
-					padding: 0;
-					margin-right: 4.736%;
-					.border-radius(34.5px);
-					position: relative;
-					span{
-						position: absolute;
-						top: 22px;
-						left: 18px;
-					}
-				}
-				&_2{
-					color: #2b414d;
-					font-size: 1.75em;
-					line-height: 69px;
-				}
-				&_3{
-					padding: 0;
-					color: #ccd0d2;
-					font-size: 0.6875em;
-					border-left: solid #ccd0d2;
-					padding-left: 3.947%;
-					margin-left: 3.947%;
-					width: 110px;
-					vertical-align: middle;
-				}
-			}
-			&:before {
-			  content: "";
-			  display: inline-block;
-			  min-height: inherit;
-			  height: 100%;
-			  vertical-align: middle;
-			}
-		}
-		
 		.header__social-list{
 			float: right; 
 			list-style: none;
@@ -127,6 +76,56 @@ body {
 				height: auto;
 				float: right;
 			}
+		}
+	}
+	&__logo{
+		float: left;
+		width: 375px;
+		text-align: center;
+		display: block;
+		&:before {
+		  content: "";
+		  display: inline-block;
+		  min-height: inherit;
+		  height: 100%;
+		  vertical-align: middle;
+		}
+	}
+	&__logo-item{
+		text-align: center;
+		display: inline-block;
+		vertical-align: middle;
+		text-transform: uppercase;
+		&_1{
+			.bg-color(#e2574c);
+			color: #fff;
+			font-size: 1.5em;
+			width: 69px;
+			height: 69px;
+			padding: 0;
+			margin-right: 4.736%;
+			.border-radius(34.5px);
+			position: relative;
+			span{
+				position: absolute;
+				top: 22px;
+				left: 18px;
+			}
+		}
+		&_2{
+			color: #2b414d;
+			font-size: 1.75em;
+			line-height: 69px;
+		}
+		&_3{
+			padding: 0;
+			color: #ccd0d2;
+			font-size: 0.6875em;
+			border-left: solid #ccd0d2;
+			padding-left: 3.947%;
+			margin-left: 3.947%;
+			width: 110px;
+			vertical-align: middle;
 		}
 	}
 	&__text{
