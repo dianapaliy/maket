@@ -12,9 +12,7 @@ module.exports = function(grunt) { // Обязательная функция-о
                     strictMath: true
                 },
                 files: {
-                   // 'css/all.css': ['less/all.less'],
-                    'css/font.css': ['less/font.less'],
-                    'css/style.css': ['less/all.less']
+                    'css/all.css': ['less/all.less']
                 }
             },
             release: { // Target
