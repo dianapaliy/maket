@@ -10,17 +10,13 @@ $().ready(function() {
                 digits: "numbers!!!"
             },
             phone: "enter phone number"
-        },
-        errorPlacement: function(error, element) {
-            offset = element.offset();
-            error.css('display', 'none');   
         }
     });
     $("#phone").mask("+7 (999) 999-99-99");
 
     $('#subscribeForm').submit(function() {
 
-        $('#subscribeForm').addClass('error-on-submit');
+        $('#subscribeForm').addClass('error-on-submit').removeClass("subscribe-form");
 
     });
 }

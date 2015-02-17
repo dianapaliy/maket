@@ -458,8 +458,8 @@ body {
 .subscribe-form-out .subscribe-form:after {
   clear: both;
 }
-.subscribe-form-out .subscribe-form .error {
-  display: none;
+.subscribe-form-out .subscribe-form label {
+  display: none !important;
   color: #0000f6;
 }
 .subscribe-form-out .subscribe-form .feedback-input {
@@ -507,8 +507,66 @@ body {
   border: 2px solid #e35347;
   display: none;
 }
-.subscribe-form-out .error-on-submit .error {
+.subscribe-form-out .error-on-submit {
+  width: 65.957%;
+  margin: 0 auto;
+  *zoom: 1;
+}
+.subscribe-form-out .error-on-submit:before,
+.subscribe-form-out .error-on-submit:after {
+  content: " ";
+  display: table;
+}
+.subscribe-form-out .error-on-submit:after {
+  clear: both;
+}
+.subscribe-form-out .error-on-submit .feedback-input {
+  margin: 10px auto;
+  padding-left: 3.225%;
+  height: 50px;
+  width: 50%;
+  background-color: #f8f8f8;
+  border: 2px solid #ececec;
+  font-size: 1.125em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   display: block;
+}
+.subscribe-form-out .error-on-submit .form-btn {
+  display: block;
+  padding: 0 3.548% 0 0;
+  display: inline-block;
+  *display: inline;
+  color: #ffffff;
+  font-size: 1.125em;
+  text-decoration: none;
+  cursor: pointer;
+  vertical-align: middle;
+  padding: 16px 3.226%;
+  background-color: #e2574c;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid #e35347;
+}
+.subscribe-form-out .error-on-submit .form-btn-mob {
+  padding: 0 3.548% 0 0;
+  display: inline-block;
+  *display: inline;
+  color: #ffffff;
+  font-size: 1.125em;
+  text-decoration: none;
+  cursor: pointer;
+  vertical-align: middle;
+  padding: 16px 3.226%;
+  background-color: #e2574c;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid #e35347;
+  display: none;
+}
+.subscribe-form-out .error-on-submit label {
+  display: block !important;
   margin-bottom: 5px;
   color: red;
 }
