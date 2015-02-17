@@ -458,21 +458,25 @@ body {
 .subscribe-form-out .subscribe-form:after {
   clear: both;
 }
+.subscribe-form-out .subscribe-form .error {
+  display: block;
+  margin-bottom: 5px;
+}
 .subscribe-form-out .subscribe-form .feedback-input {
-  margin: 0 3.225%;
+  margin: 10px auto;
   padding-left: 3.225%;
-  float: left;
-  width: 61.28%;
   height: 50px;
+  width: 50%;
   background-color: #f8f8f8;
   border: 2px solid #ececec;
   font-size: 1.125em;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+  display: block;
 }
 .subscribe-form-out .subscribe-form .form-btn {
-  float: left;
+  display: block;
   padding: 0 3.548% 0 0;
   display: inline-block;
   *display: inline;

@@ -134,10 +134,16 @@
 		<div class="subscribe">
 			<h1 class="subscribe-title">Subscribe to our newsletter</h1>
 			<div class="subscribe-form-out">
-				<form class="subscribe-form">
-					<input name="email" type="text" class="feedback-input" placeholder="Your email address" />
-					<button type="button" class="form-btn">Subscribe now</button>
-					<button type="button" class="form-btn-mob">Subscribe</button>
+				<form class="subscribe-form" id="subscribeForm" method="get" action="">
+					<input name="firstname" id="name" type="text" class="feedback-input" placeholder="Your firstname"  />
+                    <input name="lastname" id="lastname" type="text" class="feedback-input" placeholder="Your lastname"  />
+                    <input name="email" id="email" type="email" class="feedback-input" placeholder="Your email address"  />
+                    <input name="city" id="city" type="text" class="feedback-input" placeholder="Your city"  />
+                    <input name="street" id="street" type="text" class="feedback-input" placeholder="Your street"  />
+                    <input name="zip" id="zip" type="text" class="feedback-input" placeholder="Your zip"  />
+                    <input name="phone" id="phone" type="text" class="feedback-input" placeholder="+7 (___) ___-__-__"/>
+					<input type="submit" value="Subscribe now" class="form-btn">
+					<input type="submit" value="Subscribe" class="form-btn-mob">
 				</form>
 			</div>
 			<p class="subscribe-text">Subscribe now if you want to recieve updates and news via email. Don’t worry, it won’t happen often.</p>
@@ -153,8 +159,11 @@
 		<div class="pic-bottom"></div>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/validation/dist/jquery.validate.js" type="text/javascript"></script>
+    <script src="http://digitalbush.com/wp-content/uploads/2014/10/jquery.maskedinput.js" type="text/javascript"></script>
+    <script src="js/validation.js" type="text/javascript"></script>
 	<script type="text/javascript" src="slick/slick.min.js"></script>
 	<script src="js/slider.js" type="text/javascript"></script>
-	<script src="js/slider-image.js" type="text/javascript"></script
+	<script src="js/slider-image.js" type="text/javascript"></script>
 </body>
 </html>
