@@ -478,6 +478,7 @@ body {
 .subscribe-form-out .subscribe-form .form-btn {
   display: block;
   padding: 0 3.548% 0 0;
+  margin-top: 10px;
   display: inline-block;
   *display: inline;
   color: #ffffff;
@@ -493,6 +494,7 @@ body {
 }
 .subscribe-form-out .subscribe-form .form-btn-mob {
   padding: 0 3.548% 0 0;
+  margin-top: 10px;
   display: inline-block;
   *display: inline;
   color: #ffffff;
@@ -536,6 +538,7 @@ body {
 .subscribe-form-out .error-on-submit .form-btn {
   display: block;
   padding: 0 3.548% 0 0;
+  margin-top: 10px;
   display: inline-block;
   *display: inline;
   color: #ffffff;
@@ -551,6 +554,7 @@ body {
 }
 .subscribe-form-out .error-on-submit .form-btn-mob {
   padding: 0 3.548% 0 0;
+  margin-top: 10px;
   display: inline-block;
   *display: inline;
   color: #ffffff;
@@ -634,9 +638,21 @@ body {
     width: 61.28%;
   }
   .subscribe .subscribe-form-out .subscribe-form .form-btn {
-    float: left;
+    float: none;
   }
   .subscribe .subscribe-form-out .subscribe-form .form-btn-mob {
+    display: none;
+  }
+  .subscribe .subscribe-form-out .error-on-submit {
+    width: 82%;
+  }
+  .subscribe .subscribe-form-out .error-on-submit .feedback-input {
+    width: 61.28%;
+  }
+  .subscribe .subscribe-form-out .error-on-submit .form-btn {
+    float: none;
+  }
+  .subscribe .subscribe-form-out .error-on-submit .form-btn-mob {
     display: none;
   }
   .subscribe .subscribe-social .subscribe-social-inner {
@@ -732,6 +748,9 @@ body {
     padding: 80px 0 45px 0;
   }
   .subscribe .subscribe-form-out .subscribe-form {
+    width: 80%;
+  }
+  .subscribe .subscribe-form-out .error-on-submit {
     width: 80%;
   }
   .subscribe .subscribe-text {
@@ -839,6 +858,9 @@ body {
     padding: 0 0 38px 0;
   }
   .subscribe .subscribe-form-out .subscribe-form {
+    width: 100%;
+  }
+  .subscribe .subscribe-form-out .error-on-submit {
     width: 100%;
   }
   .subscribe .subscribe-text {
@@ -976,6 +998,12 @@ body {
     width: 100%;
   }
   .subscribe .subscribe-form-out .subscribe-form .feedback-input {
+    width: 55.28%;
+  }
+  .subscribe .subscribe-form-out .error-on-submit {
+    width: 100%;
+  }
+  .subscribe .subscribe-form-out .error-on-submit .feedback-input {
     width: 55.28%;
   }
   .subscribe .subscribe-text {
@@ -1144,16 +1172,33 @@ body {
     width: 100%;
   }
   .subscribe .subscribe-form-out .subscribe-form .feedback-input {
-    width: 55.28%;
-    margin: 0 1% 0 0;
+    width: 80%;
+    margin: 10px auto;
   }
   .subscribe .subscribe-form-out .subscribe-form .form-btn {
-    float: right;
     display: none;
+    float: none;
   }
   .subscribe .subscribe-form-out .subscribe-form .form-btn-mob {
-    float: right;
     display: block;
+    float: none;
+    margin: 0 auto;
+  }
+  .subscribe .subscribe-form-out .error-on-submit {
+    width: 100%;
+  }
+  .subscribe .subscribe-form-out .error-on-submit .feedback-input {
+    width: 80%;
+    margin: 10px auto;
+  }
+  .subscribe .subscribe-form-out .error-on-submit .form-btn {
+    display: none;
+    float: none;
+  }
+  .subscribe .subscribe-form-out .error-on-submit .form-btn-mob {
+    display: block;
+    float: none;
+    margin: 10px auto 0;
   }
   .subscribe .subscribe-text {
     width: 100%;
@@ -1272,14 +1317,25 @@ body {
   /*------------------------------------------------*/
   .subscribe .subscribe-form-out .subscribe-form .feedback-input {
     font-size: 1.02em;
+    margin: 5px auto;
   }
   .subscribe .subscribe-form-out .subscribe-form .form-btn {
-    float: right;
     display: none;
   }
   .subscribe .subscribe-form-out .subscribe-form .form-btn-mob {
-    float: right;
     display: block;
+    float: none;
+  }
+  .subscribe .subscribe-form-out .error-on-submit .feedback-input {
+    font-size: 1.02em;
+    margin: 5px auto;
+  }
+  .subscribe .subscribe-form-out .error-on-submit .form-btn {
+    display: none;
+  }
+  .subscribe .subscribe-form-out .error-on-submit .form-btn-mob {
+    display: block;
+    float: none;
   }
   .subscribe .subscribe-social .subscribe-social-inner {
     width: 46.893%;

@@ -433,10 +433,12 @@ body {
 //        float: left;
         display: block;
         padding: 0 3.548% 0 0;
+        margin-top: 10px;
         .mybutton(#e2574c, #fff, 1.125em, 5px, 16px 3.226%);
       }
       .form-btn-mob{
         padding: 0 3.548% 0 0;
+        margin-top: 10px;
         .mybutton(#e2574c, #fff, 1.125em, 5px, 16px 3.226%);
         display: none;
       }
@@ -464,10 +466,12 @@ body {
         //        float: left;
         display: block;
         padding: 0 3.548% 0 0;
+        margin-top: 10px;
         .mybutton(#e2574c, #fff, 1.125em, 5px, 16px 3.226%);
       }
       .form-btn-mob{
         padding: 0 3.548% 0 0;
+        margin-top: 10px;
         .mybutton(#e2574c, #fff, 1.125em, 5px, 16px 3.226%);
         display: none;
       }
@@ -538,7 +542,21 @@ body {
           width: 61.28%;
         }
         .form-btn{
-          float: left;
+//          float: left;
+          float: none;
+        }
+        .form-btn-mob{
+          display: none;
+        }
+      }
+      .error-on-submit{
+        width: 82%;
+        .feedback-input{
+          width: 61.28%;
+        }
+        .form-btn{
+          //          float: left;
+          float: none;
         }
         .form-btn-mob{
           display: none;
@@ -640,6 +658,9 @@ body {
     .subscribe-form-out{
       .subscribe-form{
         width:80%;
+      }
+      .error-on-submit{
+        width: 80%;
       }
 
     }
@@ -758,6 +779,9 @@ body {
       padding: 0 0 38px 0;
       .subscribe-form{
         width:100%;
+      }
+      .error-on-submit{
+        width: 100%;
       }
     }
     .subscribe-text{
@@ -896,6 +920,14 @@ body {
         width:100%;
         .feedback-input{
           width: 55.28%;
+//          font-size: 1em;
+        }
+      }
+      .error-on-submit{
+        width:100%;
+        .feedback-input{
+          width: 55.28%;
+          //          font-size: 1em;
         }
       }
     }
@@ -1063,16 +1095,41 @@ body {
       .subscribe-form{
         width:100%;
         .feedback-input{
-          width: 55.28%;
-          margin: 0 1% 0 0;
+//          width: 55.28%;
+//          margin: 0 1% 0 0;
+          width: 80%;
+          margin: 10px auto;
         }
         .form-btn{
-          float: right;
+//          float: right;
           display: none;
+          float: none;
         }
         .form-btn-mob{
-          float: right;
+//          float: right;
           display: block;
+          float: none;
+          margin: 0 auto;
+        }
+      }
+      .error-on-submit{
+        width:100%;
+        .feedback-input{
+          //          width: 55.28%;
+          //          margin: 0 1% 0 0;
+          width: 80%;
+          margin: 10px auto;
+        }
+        .form-btn{
+          //          float: right;
+          display: none;
+          float: none;
+        }
+        .form-btn-mob{
+          //          float: right;
+          display: block;
+          float: none;
+          margin: 10px auto 0;
         }
       }
     }
@@ -1204,14 +1261,31 @@ body {
       .subscribe-form{
         .feedback-input{
           font-size: 1.02em;
+          margin: 5px auto;
         }
         .form-btn{
-          float: right;
+//          float: right;
           display: none;
         }
         .form-btn-mob{
-          float: right;
+//          float: right;
           display: block;
+          float: none;
+        }
+      }
+      .error-on-submit{
+        .feedback-input{
+          font-size: 1.02em;
+          margin: 5px auto;
+        }
+        .form-btn{
+//          float: right;
+          display: none;
+        }
+        .form-btn-mob{
+//          float: right;
+          display: block;
+          float: none;
         }
       }
     }
