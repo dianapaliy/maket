@@ -135,14 +135,14 @@
 			<h1 class="subscribe-title">Subscribe to our newsletter</h1>
 			<div class="subscribe-form-out">
 				<form class="subscribe-form" id="subscribeForm" method="get" action="">
-					<input name="firstname" id="name" type="text" class="feedback-input" placeholder="Your firstname"  />
-                    <input name="lastname" id="lastname" type="text" class="feedback-input" placeholder="Your lastname"  />
-                    <input name="email" id="email" type="email" class="feedback-input" placeholder="Your email address"  />
-                    <input name="city" id="city" type="text" class="feedback-input" placeholder="Your city"  />
-                    <input name="street" id="street" type="text" class="feedback-input" placeholder="Your street"  />
-                    <input name="zip" id="zip" type="text" class="feedback-input" placeholder="Your zip"  />
-                    <input name="phone" id="phone" type="text" class="feedback-input" placeholder="+7 (___) ___-__-__"/>
-					<input type="submit" value="Subscribe now" class="form-btn">
+					<input name="firstname" id="name" type="text" class="feedback-input required" placeholder="Your firstname"  />
+                    <input name="lastname" id="lastname" type="text" class="feedback-input required" placeholder="Your lastname"  />
+                    <input name="email" id="email" type="email" class="feedback-input email required" placeholder="Your email address"  />
+                    <input name="city" id="city" type="text" class="feedback-input required" placeholder="Your city"  />
+                    <input name="street" id="street" type="text" class="feedback-input required" placeholder="Your street"  />
+                    <input name="zip" id="zip" type="text" class="feedback-input digits required" placeholder="Your zip"  />
+                    <input name="phone" id="phone" type="text" class="feedback-input required" placeholder="+7 (___) ___-__-__"/>
+					<input type="submit" value="Subscribe now" class="form-btn" id="form-button">
 					<input type="submit" value="Subscribe" class="form-btn-mob">
 				</form>
 			</div>
