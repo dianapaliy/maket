@@ -459,8 +459,8 @@ body {
   clear: both;
 }
 .subscribe-form-out .subscribe-form .error {
-  display: block;
-  margin-bottom: 5px;
+  display: none;
+  color: #0000f6;
 }
 .subscribe-form-out .subscribe-form .feedback-input {
   margin: 10px auto;
@@ -506,6 +506,11 @@ body {
   outline: none;
   border: 2px solid #e35347;
   display: none;
+}
+.subscribe-form-out .error-on-submit .error {
+  display: block;
+  margin-bottom: 5px;
+  color: red;
 }
 .subscribe-text {
   font-size: 1.0625em;

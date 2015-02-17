@@ -412,8 +412,8 @@ body {
       margin: 0 auto;
       .clearfix;
       .error{
-        display: block;
-        margin-bottom: 5px;
+        display: none;
+        color: #0000f6;
       }
       .feedback-input{
 //        margin: 0 3.225%;
@@ -439,6 +439,14 @@ body {
         padding: 0 3.548% 0 0;
         .mybutton(#e2574c, #fff, 1.125em, 5px, 16px 3.226%);
         display: none;
+      }
+
+    }
+    .error-on-submit{
+      .error{
+        display: block;
+        margin-bottom: 5px;
+        color: red;
       }
     }
 
