@@ -27,8 +27,25 @@ module.exports = function(grunt) { // Обязательная функция-о
                 }
             }
         },
+        watch: {
+            less: {
+                files: 'less/**',
+                tasks: ['less:dev'],
+                options: {
+                    interrupt: true
+                }
+            },
+            css: {
+                files: ['*.css']
+            },
+            livereload: {
+                options: { livereload: true },
+                files: ['css/*.css']
+            }
+        }
         //------------------------------------------------------------
     });
     // Инициализация плагинов, таски которых мы вызываем
     grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 };
