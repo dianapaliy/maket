@@ -411,24 +411,30 @@ body {
       width:65.957%;
       margin: 0 auto;
       .clearfix;
-      label{
-        display: none !important;
-        color: #0000f6;
+      &-item{
+        position: relative;
+        label{
+          display: none !important;
+          color: #0000f6;
+//          position: absolute;
+          top: 20px;
+        }
+        .feedback-input{
+          //        margin: 0 3.225%;
+          margin: 10px auto;
+          padding-left: 3.225%;
+          //        float: left;
+          //        width: 61.28%;
+          height: 50px;
+          width: 50%;
+          background-color: #f8f8f8;
+          border: 2px solid #ececec;
+          font-size: 1.125em;
+          .border-radius(5px);
+          display: block;
+        }
       }
-      .feedback-input{
-//        margin: 0 3.225%;
-        margin: 10px auto;
-        padding-left: 3.225%;
-//        float: left;
-//        width: 61.28%;
-        height: 50px;
-        width: 50%;
-        background-color: #f8f8f8;
-        border: 2px solid #ececec;
-        font-size: 1.125em;
-        .border-radius(5px);
-        display: block;
-      }
+
       .form-btn{
 //        float: left;
         display: block;
@@ -448,19 +454,30 @@ body {
       width:65.957%;
       margin: 0 auto;
       .clearfix;
-      .feedback-input{
-        //        margin: 0 3.225%;
-        margin: 10px auto;
-        padding-left: 3.225%;
-        //        float: left;
-        //        width: 61.28%;
-        height: 50px;
-        width: 50%;
-        background-color: #f8f8f8;
-        border: 2px solid #ececec;
-        font-size: 1.125em;
-        .border-radius(5px);
-        display: block;
+      .subscribe-form-item{
+        position: relative;
+        label{
+          display: block !important;
+          margin-bottom: 5px;
+          color: red;
+          position: absolute;
+          top: 56px;
+          left: 50%;
+        }
+        .feedback-input{
+          //        margin: 0 3.225%;
+          margin: 20px auto;
+          padding-left: 3.225%;
+          //        float: left;
+          //        width: 61.28%;
+          height: 50px;
+          width: 50%;
+          background-color: #f8f8f8;
+          border: 2px solid #ececec;
+          font-size: 1.125em;
+          .border-radius(5px);
+          display: block;
+        }
       }
       .form-btn{
         //        float: left;
@@ -474,11 +491,6 @@ body {
         margin-top: 10px;
         .mybutton(#e2574c, #fff, 1.125em, 5px, 16px 3.226%);
         display: none;
-      }
-      label{
-        display: block !important;
-        margin-bottom: 5px;
-        color: red;
       }
     }
 

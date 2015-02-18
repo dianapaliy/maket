@@ -458,11 +458,15 @@ body {
 .subscribe-form-out .subscribe-form:after {
   clear: both;
 }
-.subscribe-form-out .subscribe-form label {
+.subscribe-form-out .subscribe-form-item {
+  position: relative;
+}
+.subscribe-form-out .subscribe-form-item label {
   display: none !important;
   color: #0000f6;
+  top: 20px;
 }
-.subscribe-form-out .subscribe-form .feedback-input {
+.subscribe-form-out .subscribe-form-item .feedback-input {
   margin: 10px auto;
   padding-left: 3.225%;
   height: 50px;
@@ -522,8 +526,19 @@ body {
 .subscribe-form-out .error-on-submit:after {
   clear: both;
 }
-.subscribe-form-out .error-on-submit .feedback-input {
-  margin: 10px auto;
+.subscribe-form-out .error-on-submit .subscribe-form-item {
+  position: relative;
+}
+.subscribe-form-out .error-on-submit .subscribe-form-item label {
+  display: block !important;
+  margin-bottom: 5px;
+  color: red;
+  position: absolute;
+  top: 56px;
+  left: 50%;
+}
+.subscribe-form-out .error-on-submit .subscribe-form-item .feedback-input {
+  margin: 20px auto;
   padding-left: 3.225%;
   height: 50px;
   width: 50%;
@@ -568,11 +583,6 @@ body {
   outline: none;
   border: 2px solid #e35347;
   display: none;
-}
-.subscribe-form-out .error-on-submit label {
-  display: block !important;
-  margin-bottom: 5px;
-  color: red;
 }
 .subscribe-text {
   font-size: 1.0625em;
