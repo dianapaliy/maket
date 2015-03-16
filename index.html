@@ -142,8 +142,14 @@
                     <div class="subscribe-form-item"><input name="street" id="street" type="text" class="feedback-input required" placeholder="Your street"  /></div>
                     <div class="subscribe-form-item"><input name="zip" id="zip" type="text" class="feedback-input digits required" placeholder="Your zip"  /></div>
                     <div class="subscribe-form-item"><input name="phone" id="phone" type="text" class="feedback-input required" placeholder="+7 (___) ___-__-__"/></div>
-					<input type="submit" value="Subscribe now" class="form-btn" id="form-button">
-					<input type="submit" value="Subscribe" class="form-btn-mob">
+                    <div class="subscribe-form-item subscribe-link js-link-hidden">
+                        <a class="js-link" href="#"><span class="js-show show">Show</span><span class="js-hide hide">Hide</span> Additional Fields</a>
+                    </div>
+                    <div class="subscribe-form-item_hide js-hide-block">
+                        <div class="subscribe-form-item"><input name="gender" id="gender" type="text" class="feedback-input required" placeholder="Your gender"  /></div>
+                        <div class="subscribe-form-item"><input name="age" id="age" type="text" class="feedback-input required" placeholder="Your age"  /></div>
+                    </div>
+                    <button id="form-button" class="form-btn">Subscribe <span>now</span></button>
 				</form>
 			</div>
 			<p class="subscribe-text">Subscribe now if you want to recieve updates and news via email. Don’t worry, it won’t happen often.</p>

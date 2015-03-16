@@ -413,18 +413,17 @@ body {
       .clearfix;
       &-item{
         position: relative;
+          &_hide{
+              display: none;
+          }
         label{
           display: none !important;
           color: #0000f6;
-//          position: absolute;
           top: 20px;
         }
         .feedback-input{
-          //        margin: 0 3.225%;
-          margin: 10px auto;
+          margin: 20px auto;
           padding-left: 3.225%;
-          //        float: left;
-          //        width: 61.28%;
           height: 50px;
           width: 50%;
           background-color: #f8f8f8;
@@ -434,6 +433,21 @@ body {
           display: block;
         }
       }
+        .subscribe-link{
+            a{
+                color: #550000;
+                text-decoration: none;
+                span{
+                    display: inline-block;
+                }
+//                .show{
+//                    display: block;
+//                }
+                .hide{
+                    display: none;
+                }
+            }
+        }
 
       .form-btn{
 //        float: left;
@@ -1113,35 +1127,25 @@ body {
           margin: 10px auto;
         }
         .form-btn{
-//          float: right;
-          display: none;
-          float: none;
-        }
-        .form-btn-mob{
-//          float: right;
-          display: block;
-          float: none;
-          margin: 0 auto;
+            float: none;
+            margin: 10px auto 0;
+            span{
+                display: none;
+            }
         }
       }
       .error-on-submit{
         width:100%;
         .feedback-input{
-          //          width: 55.28%;
-          //          margin: 0 1% 0 0;
           width: 80%;
           margin: 10px auto;
         }
         .form-btn{
-          //          float: right;
-          display: none;
           float: none;
-        }
-        .form-btn-mob{
-          //          float: right;
-          display: block;
-          float: none;
-          margin: 10px auto 0;
+            margin: 10px auto 0;
+            span{
+                display: none;
+            }
         }
       }
     }
@@ -1275,29 +1279,11 @@ body {
           font-size: 1.02em;
           margin: 5px auto;
         }
-        .form-btn{
-//          float: right;
-          display: none;
-        }
-        .form-btn-mob{
-//          float: right;
-          display: block;
-          float: none;
-        }
       }
       .error-on-submit{
         .feedback-input{
           font-size: 1.02em;
           margin: 5px auto;
-        }
-        .form-btn{
-//          float: right;
-          display: none;
-        }
-        .form-btn-mob{
-//          float: right;
-          display: block;
-          float: none;
         }
       }
     }

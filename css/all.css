@@ -461,13 +461,16 @@ body {
 .subscribe-form-out .subscribe-form-item {
   position: relative;
 }
+.subscribe-form-out .subscribe-form-item_hide {
+  display: none;
+}
 .subscribe-form-out .subscribe-form-item label {
   display: none !important;
   color: #0000f6;
   top: 20px;
 }
 .subscribe-form-out .subscribe-form-item .feedback-input {
-  margin: 10px auto;
+  margin: 20px auto;
   padding-left: 3.225%;
   height: 50px;
   width: 50%;
@@ -478,6 +481,16 @@ body {
   -moz-border-radius: 5px;
   border-radius: 5px;
   display: block;
+}
+.subscribe-form-out .subscribe-form .subscribe-link a {
+  color: #550000;
+  text-decoration: none;
+}
+.subscribe-form-out .subscribe-form .subscribe-link a span {
+  display: inline-block;
+}
+.subscribe-form-out .subscribe-form .subscribe-link a .hide {
+  display: none;
 }
 .subscribe-form-out .subscribe-form .form-btn {
   display: block;
@@ -1186,13 +1199,11 @@ body {
     margin: 10px auto;
   }
   .subscribe .subscribe-form-out .subscribe-form .form-btn {
-    display: none;
     float: none;
+    margin: 10px auto 0;
   }
-  .subscribe .subscribe-form-out .subscribe-form .form-btn-mob {
-    display: block;
-    float: none;
-    margin: 0 auto;
+  .subscribe .subscribe-form-out .subscribe-form .form-btn span {
+    display: none;
   }
   .subscribe .subscribe-form-out .error-on-submit {
     width: 100%;
@@ -1202,13 +1213,11 @@ body {
     margin: 10px auto;
   }
   .subscribe .subscribe-form-out .error-on-submit .form-btn {
-    display: none;
-    float: none;
-  }
-  .subscribe .subscribe-form-out .error-on-submit .form-btn-mob {
-    display: block;
     float: none;
     margin: 10px auto 0;
+  }
+  .subscribe .subscribe-form-out .error-on-submit .form-btn span {
+    display: none;
   }
   .subscribe .subscribe-text {
     width: 100%;
@@ -1329,23 +1338,9 @@ body {
     font-size: 1.02em;
     margin: 5px auto;
   }
-  .subscribe .subscribe-form-out .subscribe-form .form-btn {
-    display: none;
-  }
-  .subscribe .subscribe-form-out .subscribe-form .form-btn-mob {
-    display: block;
-    float: none;
-  }
   .subscribe .subscribe-form-out .error-on-submit .feedback-input {
     font-size: 1.02em;
     margin: 5px auto;
-  }
-  .subscribe .subscribe-form-out .error-on-submit .form-btn {
-    display: none;
-  }
-  .subscribe .subscribe-form-out .error-on-submit .form-btn-mob {
-    display: block;
-    float: none;
   }
   .subscribe .subscribe-social .subscribe-social-inner {
     width: 46.893%;
